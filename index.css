@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Intro;
+    src:url(./Fonts/intro-2/Intro\ Regular\ Alt.otf);
+
+}
+
+* {
+    font-family: Intro;
+}
+
+body {
+    background-color: #000465;
+}
+
+.navimg {
+    width: 60px;
+}
+
+.navimg:hover {
+    border: black solid 3px;
+}
+
+
+#Title {
+    font-size: 140px;
+    text-transform: uppercase;
+    color: white;
+    text-align: right;
+    min-width: fit-content;
+    max-width: 100%;
+}
+
+#ImadhPhoto {
+    width: 600px;
+    border: white solid 5px;
+    position: relative;
+    bottom: 120px;
+    z-index: -1;
+
+}
+
+
+.headernav {
+    list-style: none;
+    background-color: white;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    margin: 0;
+}
+
+
+footer {
+    background-color: white;
+    width: 100%;
+}
+
+.footernav {
+    list-style: none;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.headernav li {
+    display: inline;
+    margin: 10px;
+    
+}
+
+.footernav li {
+    display: inline;
+    margin: 20px;
+
+}
+
+
+#Contact h2 {
+    text-align: center;
+    margin-left: 30px;
+    color: black;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 100px;
+    color: white;
+}
+
+.Profile {
+    background-color: white;
+    padding: 50px;
+    text-align: left;
+}
+
+#AcademicBackground h3 {
+    background-image: url(./Images/Title.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    font-size: 30px;
+}
+
+#AcademicBackground span {
+    font-weight: bold;
+    background-color: white;
+}
+
+#AcademicBackground p {
+    color: white;
+}
+
+.headernav a {
+    color: black;
+    border: black solid 2px;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+.headernav a:hover {
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
